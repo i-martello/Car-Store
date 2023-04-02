@@ -33,7 +33,7 @@ const AutoDetail = () => {
             ></Image>
           </div>
           <div className="text-3xl font-medium uppercase p-8 text-center border-b border-blue-800 tracking-wide">
-            {Car?.marca} {Car?.modelo}
+            {Car?.auto}
           </div>
           <div className="text-center text-sm sm:text-md max-w-sm mx-auto mt-8 text-blue-200 px-8 lg:px-0">
             Stripe offers everything needed to run an online business at scale.

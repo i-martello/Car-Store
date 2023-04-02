@@ -49,21 +49,18 @@ export default function Home() {
                     />
                   </svg>
                 </p>
-                <p className="inline text-xs font-medium">New</p>
+                <p className="inline text-xs font-medium">Nuevo!</p>
               </div>
               <a className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl">
-                Write anything. Be creative.
+                Nissan Frontier
               </a>
               <div className="pt-2 pr-0 pb-0 pl-0">
-                <p className="text-sm font-medium inline">author:</p>
+                <p className="text-sm font-medium inline">Autor:</p>
                 <a className="inline text-sm font-medium mt-0 mr-1 mb-0 ml-1 underline">
-                  Jack Sparrow
+                  Ignacio Martello :)
                 </a>
                 <p className="inline text-sm font-medium mt-0 mr-1 mb-0 ml-1">
-                  · 23rd, April 2021 ·
-                </p>
-                <p className="text-gray-200 text-sm font-medium inline mt-0 mr-1 mb-0 ml-1">
-                  1hr 20min. read
+                  · 16 Marzo 2023 ·
                 </p>
               </div>
             </div>
@@ -71,8 +68,8 @@ export default function Home() {
           <div className="w-full md:w-1/2">
             <div className="block">
               <img
-                src="https://images.unsplash.com/photo-1626314928277-1d373ddb6428?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mzd8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60"
-                className="object-cover rounded-lg max-h-64 sm:max-h-96 btn- w-full h-full"
+                src="https://acnews.blob.core.windows.net/imgnews/medium/NAZ_138e445666654caca9b7c14367ba566e.webp"
+                className="object-cover rounded-lg max-h-64 sm:max-h-96 btn- w-full h-full shadow-lg shadow-black	"
               />
             </div>
           </div>
