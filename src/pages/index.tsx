@@ -4,8 +4,7 @@ import Car from "./car";
 
 export type CarType = {
   id: string
-  marca: string;
-  modelo: string;
+  auto: string
   km: string;
   precio: string;
   foto: string;
@@ -80,7 +79,7 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-12 sm:px-5 gap-x-8 gap-y-16">
           {carsIndex
-            .sort((a, b) => a.marca.localeCompare(b.marca))
+            .sort((a, b) => a.auto.localeCompare(b.auto))
             .map(car => {
               return (
                 <Car key={car.id} {...car}></Car>

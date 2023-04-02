@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import { CarType } from './index'
 
 
-const Car = ({ id, foto, precio, km, marca, modelo }: CarType) => {
+const Car = ({ id, foto, precio, km, auto }: CarType) => {
 
   return (
     <div
@@ -32,7 +32,7 @@ const Car = ({ id, foto, precio, km, marca, modelo }: CarType) => {
           </p>
         </div>
         <a className="text-lg font-bold sm:text-xl md:text-2xl m-2">
-          {marca} {modelo}
+          {auto}
         </a>
         <p className="text-sm text-black m-2">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do

@@ -1,96 +1,84 @@
 [
   {
     "id": "1",
-    "marca": "Audi",
-    "modelo": "A5",
+    "auto": "Audi A5",
     "km": "78.122 km",
     "precio": "$ 8.680.000",
     "foto": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Audi_A5_Coup%C3%A9_TFSI_S-line_%E2%80%93_Frontansicht%2C_12._Juni_2011%2C_D%C3%BCsseldorf.jpg"
   },
   {
     "id": "2",
-    "marca": "BMW",
-    "modelo": "X6",
+    "auto": "BMW X6",
     "km": "44.550 km",
     "precio": "$ 38.710.000",
     "foto": "https://www.motorbiscuit.com/wp-content/uploads/2020/01/Tuned-BMW-X6-M.jpg"
   },
   {
     "id": "3",
-    "marca": "Chevrolet",
-    "modelo": "Tahoe",
+    "auto": "Chevrolet Tahoe",
     "km": "0 km",
     "precio": "$ 19.710.500",
     "foto": "https://upload.wikimedia.org/wikipedia/commons/c/c3/2015_Chevrolet_Tahoe_LT_5.3L_front_3.24.19.jpg"
   },
   {
     "id": "4",
-    "marca": "Fiat",
-    "modelo": "Cronos",
+    "auto": "Fiat Cronos",
     "km": "120.544 km",
     "precio": "$ 4.900.000",
     "foto": "https://cdn.motor1.com/images/mgl/PEEoK/s3/critica-fiat-cronos-1-3-s-design.jpg"
   },
   {
     "id": "5",
-    "marca": "Volkswagen",
-    "modelo": "Polo",
+    "auto": "Volkswagen Polo",
     "km": "22.700 km",
     "precio":"$ 5.150.000",
     "foto": "https://acnews.blob.core.windows.net/imgnews/large/NAZ_2ae8469290a04899b13159991cd829e2.webp"
   },
   {
     "id": "6",
-    "marca": "Renault",
-    "modelo": "Kwid",
+    "auto": "Renault Kwid",
     "km": "158.600 km",
     "precio": "$ 2.950.000",
     "foto": "https://autotest.com.ar/wp-content/uploads/2020/11/RENAULT-KWID-2021.jpg"
   },
   {
     "id": "7",
-    "marca": "Ford",
-    "modelo": "Fiesta",
+    "auto": "Ford Fiesta",
     "km": "165.120 km",
     "precio": "$ 2.400.000",
     "foto": "https://www.opencars.com.ar/wp-content/uploads/2022/12/e-21.jpg"
   },
   {
     "id": "8",
-    "marca": "Peugeot",
-    "modelo": "206",
+    "auto": "Peugeot 206",
     "km": "114.000 km",
     "precio": "$ 2.245.000",
     "foto": "https://http2.mlstatic.com/D_NQ_NP_819412-MLA54493625972_032023-W.jpg"
   },
   {
     "id": "9",
-    "marca": "Citroen",
-    "modelo": "C5",
+    "auto": "Citroen C5",
     "km": "89.900 km",
     "precio": "$ 3.570.000",
     "foto": "https://francuskie.pl/wp-content/uploads/2021/12/citroen-c5-hdi-2007-2.jpg"
   },
   {
     "id": "10",
-    "marca": "Mercedes",
-    "modelo": "Clase A",
+    "auto": "Mercedes Clase A",
     "km": "0 km",
     "precio": "$ 20.935.000",
     "foto": "https://www.autopista.es/uploads/s1/10/05/82/50/mercedes-renovara-el-clase-a-a-lo-largo-de-2022.jpeg"
   },
   {
     "id": "11",
-    "marca": "Peugeot",
-    "modelo": "208",
+    "auto": "Peugeot 208",
     "km": "0 km",
     "precio": "$ 6.000.000",
     "foto": "https://resizer.glanacion.com/resizer/dWlOngl_skg1doCItj44-FwuyMI=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/VOC5FV2Y2NFZXL7MVI75I3IJWI.jpg"
   },
   {
     "id": "12",
-    "marca": "Nissan",
-    "modelo": "Frontier",
+    "auto": "Nissan Frontier",
     "km": "0 km",
     "precio": "$ 14.300.000",
     "foto": "https://acnews.blob.core.windows.net/imgnews/medium/NAZ_138e445666654caca9b7c14367ba566e.webp"
