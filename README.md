@@ -4,12 +4,24 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
+
+## Pagina Principal
+
+![App Screenshot](https://res.cloudinary.com/dkqlhd9l3/image/upload/v1680672552/paginaprincipal_gft91f.png)
+
+
+## Articulo
+
+![App Screenshot](https://res.cloudinary.com/dkqlhd9l3/image/upload/v1680672561/articulo_xrkoix.png)
+
+
+## Instalación
+
+Instala mi proyecto con NPM!
+
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  npm install 
+  npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
