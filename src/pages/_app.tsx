@@ -5,18 +5,7 @@ import React from "react";
 import mongoose from "mongoose";
 import { AppProvider } from "@/context";
 
-export async function getStaticProps() {
-  try {
-    console.log(process.env.MONGO_URI!);
 
-    await mongoose.connect(process.env.MONGO_URI!);
-    console.log("base de datos funcionando");
-  } catch (error) {
-    console.log(error);
-  }
-
-  // ...
-}
 export default function App({ Component, pageProps }: AppProps) {
   (async () => {
     try {
