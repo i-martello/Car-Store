@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse} from 'next'
-import { User as commentSchema } from '../../backend/models/comments.models'
+import { User as commentSchema } from '../../lib/models/comments.models'
 
 const addComment = async (req: NextApiRequest, res: NextApiResponse) => {
 
