@@ -1,9 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-PARA PODER HACER LAS PETICIONES A LA BASE DE DATOS Y VER LOS COMENTARIOS DESCOMENTE LOS CODIGOS EN EL ARCHIVO "Comments.tsx" Muchas gracias!
-
 ## Pagina Principal
 
 ![App Screenshot](https://res.cloudinary.com/dkqlhd9l3/image/upload/v1680672552/paginaprincipal_gft91f.png)
@@ -22,6 +18,16 @@ Instala mi proyecto con NPM!
   npm install 
   npm run dev
 ```
+
+## Environment Variables
+
+PARA PODER HACER LAS PETICIONES A LA BASE DE DATOS Y VER LOS COMENTARIOS DESCOMENTE LOS CODIGOS EN EL ARCHIVO "Comments.tsx" Muchas gracias!
+
+Para ejecutar el proyecto, necesitas añadir las variables de entorno correspondientes 
+
+Api
+
+`MONGO_URI`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
