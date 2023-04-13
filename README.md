@@ -2,8 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
-
+PARA PODER HACER LAS PETICIONES A LA BASE DE DATOS Y VER LOS COMENTARIOS DESCOMENTE LOS CODIGOS EN EL ARCHIVO "Comments.tsx" Muchas gracias!
 
 ## Pagina Principal
 
