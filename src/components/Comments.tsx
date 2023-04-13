@@ -23,27 +23,27 @@ const Comments = () => {
 
   const onSubmit = async (data: any) => { 
     
-    const pageId = router.query.id
+    // const pageId = router.query.id
     
-    await fetch("/api/addcomment", {
-      method: "POST",
-      body: JSON.stringify({...data , pageId}),
-    });   
+    // await fetch("/api/addcomment", {
+    //   method: "POST",
+    //   body: JSON.stringify({...data , pageId}),
+    // });   
   }
 
-  useEffect(() => {    
-    (async () => {
-      await fetch("/api/comments", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then((data) => setComentarios(data.filter( (data: any) => data.pageId === router.query.id )));
-    })();    
+  // useEffect(() => {    
+  //   (async () => {
+  //     await fetch("/api/comments", {
+  //       method: "GET",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //     })
+  //       .then((response) => response.json())
+  //       .then((data) => setComentarios(data.filter( (data: any) => data.pageId === router.query.id )));
+  //   })();    
     
-  }, [comentarios, router.query.id]);
+  // }, [comentarios, router.query.id]);
 
   return (
     <section className="bg-white dark:bg-gray-900 py-8 lg:py-16">
@@ -83,7 +83,8 @@ const Comments = () => {
             Enviar comentario
           </button>
         </form>
-        {comentarios?.map((comentario, index) => {
+        <div className="mt-[20%] text-[27px]">Por razones de seguridad a la base de datos, los comentarios estan desactivados. Puede descomentar la peticion en el codigo y poder acceder al chat en tiempo real.</div>
+        {/* {comentarios?.map((comentario, index) => {
           return (
             <article
               key={index}
@@ -123,7 +124,7 @@ const Comments = () => {
               </p>
             </article>
           );
-        })}
+        })} */}
       </div>
     </section>
   );
